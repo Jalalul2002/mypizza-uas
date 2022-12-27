@@ -42,8 +42,10 @@ public class FourthActivity extends AppCompatActivity {
             image.setImageResource(R.drawable.spaghetti_detail);
         } else if (title.getText().toString().equals(getString(R.string.image3_title))) {
             image.setImageResource(R.drawable.burger_detail);
-        } else {
+        } else if (title.getText().toString().equals(getString(R.string.image4_title))) {
             image.setImageResource(R.drawable.steak_detail);
+        } else {
+            image.setImageResource(R.drawable.french_fries_detail);
         }
 
         btn_back.setOnClickListener(view -> {

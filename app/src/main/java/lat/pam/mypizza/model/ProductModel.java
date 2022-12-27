@@ -10,16 +10,16 @@ public class ProductModel {
     private int id;
     @SerializedName("price")
     @Expose
-    private Object price;
+    private String price;
     @SerializedName("number")
     @Expose
     private String number;
     @SerializedName("details")
     @Expose
-    private Object details;
+    private String details;
     @SerializedName("foodName")
     @Expose
-    private Object foodName;
+    private String foodName;
 
     public int getId() {
         return id;
@@ -29,11 +29,11 @@ public class ProductModel {
         this.id = id;
     }
 
-    public Object getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(Object price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
@@ -45,19 +45,19 @@ public class ProductModel {
         this.number = number;
     }
 
-    public Object getDetails() {
+    public String getDetails() {
         return details;
     }
 
-    public void setDetails(Object details) {
+    public void setDetails(String details) {
         this.details = details;
     }
 
-    public Object getFoodName() {
+    public String getFoodName() {
         return foodName;
     }
 
-    public void setFoodName(Object foodName) {
+    public void setFoodName(String foodName) {
         this.foodName = foodName;
     }
 }
