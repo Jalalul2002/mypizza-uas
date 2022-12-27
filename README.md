@@ -2,11 +2,26 @@
 [Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/)
 
 # Screen
-<img src="img/1.png" width="264px"/>
-<img src="img/2.png" width="264px"/>
-<img src="img/3.png" width="264px"/>
-<img src="img/4.png" width="264px"/>]
-<img src="img/5.png" width="264px"/>
-<img src="img/6.png" width="264px"/>
-<img src="img/7.png" width="264px"/>
-<img src="img/8.png" width="264px"/>
+## Tampilan Awal
+![awal](img/1.jpg)
+
+## Tampilan Toast Masuk Error (Kosong)
+![toast1](img/2.jpg)
+
+## Tampilan Setelah Masuk
+![login](img/3.jpg)
+
+## Tampilan Menu
+![menu](img/4.jpg)
+
+## Tampilan Detail Menu
+![detail](img/5.jpg)
+
+## Tampilan Detail Menu 2
+![detail2](img/6.jpg)
+
+## Tampilan Order
+![order](img/7.jpg)
+
+## Tampilan Toast Order Berhasil
+![toast2](img/8.jpg)
