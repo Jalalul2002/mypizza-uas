@@ -3,7 +3,7 @@
 
 # Screen
 ## Tampilan Awal
-![awal](img/1.jpg)width: 25%
+![awal](img/1.jpg)
 
 ## Tampilan Toast Masuk Error (Kosong)
 ![toast1](img/2.jpg)
