@@ -1,6 +1,15 @@
 # 1207050055-Jalalul Mu'ti
 [Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/)
 
+# API
+
+# EndPoint
+`public interface JsonApi {
+
+    @GET("uasresto")
+    Call<List<ProductModel>> getProduct();
+}`
+
 # Screen
 ## Tampilan Awal
 ![awal](img/1.jpg)
