@@ -3,26 +3,25 @@
 
 # Screen
 ## Tampilan Awal
-[!awal][img/1.jpg]
+![awal](img/1.jpg)
 
 ## Tampilan Toast Masuk Error (Kosong)
-[!awal][img/2.jpg]
+![toast1](img/2.jpg)
 
-## Tampilan Setelah MAsuk
-[!awal][img/3.jpg]
+## Tampilan Setelah Masuk
+![login](img/3.jpg)
 
 ## Tampilan Menu
-[!awal][img/4.jpg]
+![menu](img/4.jpg)
 
 ## Tampilan Detail Menu
-[!awal][img/5.jpg]
+![detail](img/5.jpg)
 
 ## Tampilan Detail Menu 2
-[!awal][img/6.jpg]
+![detail2](img/6.jpg)
 
 ## Tampilan Order
-[!awal][img/7.jpg]
+![order](img/7.jpg)
 
 ## Tampilan Toast Order Berhasil
-[!awal][img/8.jpg]
-
+![toast2](img/8.jpg)
