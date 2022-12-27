@@ -14,6 +14,7 @@ public class ThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
 
+        String BASE_URL = "https://retoolapi.dev/StWODX/";
 
         TextView namaPengguna = findViewById(R.id.nama_pemesan);
         TextView store_name = findViewById(R.id.store);
