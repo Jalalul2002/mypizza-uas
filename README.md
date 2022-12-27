@@ -3,32 +3,31 @@
 
 # Dependencies Retrofit + GsonConvert
 Lokasi :> Build.gradle
-` 
-//    Retrofit
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-
-//    GSON Converter
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0' `
+` implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+implementation 'com.squareup.retrofit2:converter-gson:2.9.0' `
 
 # Android Permissison INTERNET
 Lokasi :> AndroidManifest.xml
 
-` <uses-permission android:name="android.permission.INTERNET"/>
- `
+` <uses-permission android:name="android.permission.INTERNET"/> `
 
 # API
 ` https://retoolapi.dev/StWODX/ `
 
 # EndPoint
-` public interface JsonApi {
+` 
+public interface JsonApi {
 
     @GET("uasresto")
     Call<List<ProductModel>> getProduct();
-} `
+} 
+
+`
 
 # Model
 
-` public class ProductModel {
+` 
+public class ProductModel {
 
     @SerializedName("id")
     @Expose
@@ -66,14 +65,19 @@ Lokasi :> AndroidManifest.xml
         return foodName;
     }
 
-} `
+} 
+
+`
 
 # implement retrofit
-` Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL)
+` 
+Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create()).build();
 
 JsonApi jsonApi = retrofit.create(JsonApi.class);
-Call<List<ProductModel>> call = jsonApi.getProduct(); `
+Call<List<ProductModel>> call = jsonApi.getProduct(); 
+
+`
 
 # Screen
 ## Tampilan Awal
